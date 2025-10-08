@@ -1,0 +1,25 @@
+# WordPress core
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/license.txt
+/readme.html
+/xmlrpc.php
+
+# Configuration
+wp-config.php
+
+# Uploads
+/wp-content/uploads/
+
+# Logs
+*.log
+
+# Plugins
+/wp-content/plugins/*
+!/wp-content/plugins/seu-plugin-custom
+
+# Themes
+/wp-content/themes/*
+!/wp-content/themes/seu-tema-custom
